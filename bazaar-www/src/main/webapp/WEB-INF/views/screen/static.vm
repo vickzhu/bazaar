@@ -1,0 +1,7 @@
+#set($name="Nike")
+
+<div>
+品牌：$name 
+</div>
+
+<img src="https://pics.rebatesme.com/coupon/2018/10/1540783369462_Nike.png" />

@@ -18,7 +18,7 @@
     </dependency>
   	<dependency>
   		<groupId>${project.groupId}</groupId>
-  		<artifactId>pentagon-biz</artifactId>
+  		<artifactId>bazaar-biz</artifactId>
   		<version>${project.version}</version>
   	</dependency>
   	<!-- 邮件发送 -->

@@ -1,0 +1,20 @@
+<head>
+	<base href="$!hostTool.basePath"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gramos - Admin Dashboard</title>
+
+    <!-- begin::global styles -->
+    <link rel="stylesheet" href="assets/vendors/bundle.css" type="text/css">
+    <!-- end::global styles -->
+	
+    <!-- begin::custom styles -->
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/custom.css" type="text/css">
+    <!-- end::custom styles -->
+	
+	<!-- begin::global scripts -->
+    <script src="assets/vendors/bundle.js"></script>
+    <!-- end::global scripts -->
+</head>

@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+#parse("control/header.vm")
+<body>
+#parse("control/top.vm")
+#parse("control/left.vm")
+$screen_content
+#include("control/footer.vm")
+</body>
+</html>

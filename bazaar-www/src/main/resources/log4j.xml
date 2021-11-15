@@ -23,9 +23,6 @@
  	<logger name="com.gandalf">
 		<level value="debug" />
 	</logger>
-	<logger name="com.pentagon">
-		<level value="debug" />
-	</logger>
 
 	<!-- Root Logger -->
 

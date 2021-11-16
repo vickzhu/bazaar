@@ -7,16 +7,16 @@
 		<param name="Target" value="System.out" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern"
-				value="[%d{yyyy-MM-dd HH:mm:ss}]  %p(pentagon) %C{1}#%M(L%L) : %m%n" />
+				value="[%d{yyyy-MM-dd HH:mm:ss}]  %p(bazaar) %C{1}#%M(L%L) : %m%n" />
 		</layout>
 	</appender>
 
 	<appender name="dailyFile" class="org.apache.log4j.DailyRollingFileAppender">
-		<param name="File" value="/var/log/www/%p(pentagon)/pentagon.log" />
+		<param name="File" value="/var/log/www/%p(bazaar)/bazaar.log" />
 		<param name="DatePattern" value="'.'yyyy-MM-dd" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern"
-				value="[%d{yyyy-MM-dd HH:mm:ss}]  %p(%p(pentagon)) %C{1}#%M(L%L) : %m%n" />
+				value="[%d{yyyy-MM-dd HH:mm:ss}]  %p(%p(bazaar)) %C{1}#%M(L%L) : %m%n" />
 		</layout>
 	</appender>
 	

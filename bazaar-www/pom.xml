@@ -68,7 +68,7 @@
       </profile>
 	</profiles>
 	<build>
-		<finalName>pentagon</finalName>
+		<finalName>bazaar</finalName>
 		<filters>
 			<filter>src/main/filters/${env}.properties</filter>
 		</filters>

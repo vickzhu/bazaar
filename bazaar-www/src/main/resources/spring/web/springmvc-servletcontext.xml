@@ -41,7 +41,7 @@
 		     <beans:ref bean="permissionInterceptor"/>
 		 </interceptor>
 	</interceptors>
-	<beans:bean id="permissionInterceptor" class="com.pentagon.web.interceptor.PermissionInterceptor">
+	<beans:bean id="permissionInterceptor" class="com.bazaar.www.interceptor.PermissionInterceptor">
 		<beans:property name="anonymousUri">
 			<beans:array>
 				<beans:value>/</beans:value>
